@@ -32,11 +32,9 @@ Table of contents
 .. toctree::
    :titlesonly:
 
-   tutorial
    license
    release
    Package API <api/diffpy.fourigui>
-
 
 =======
 Indices

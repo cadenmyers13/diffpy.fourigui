@@ -46,8 +46,6 @@ extensions = [
     "m2r",
 ]
 
-autodoc_mock_imports = ["h5py", "tkinter", "matplotlib"]
-
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 
@@ -223,7 +221,13 @@ latex_elements = {
 # (source start file, target name, title,
 # author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ("index", "diffpy.fourigui.tex", "diffpy.fourigui Documentation", ab_authors, "manual"),
+    (
+        "index",
+        "diffpy.fourigui.tex",
+        "diffpy.fourigui Documentation",
+        ab_authors,
+        "manual",
+    ),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -251,7 +255,15 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [("index", "diffpy.fourigui", "diffpy.fourigui Documentation", ab_authors, 1)]
+man_pages = [
+    (
+        "index",
+        "diffpy.fourigui",
+        "diffpy.fourigui Documentation",
+        ab_authors,
+        1,
+    )
+]
 
 # If true, show URL addresses after external links.
 # man_show_urls = False
